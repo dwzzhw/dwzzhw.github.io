@@ -22,6 +22,29 @@ OpenGL 问题汇总			{#yungentie}
   比如采用这样的方式：
   GLSurfaceView->setRender->onSurfaceCreated回调方法中构造一个SurfaceTexture对象，然后设置到Camera预览中->SurfaceTexture中的回调方法onFrameAvailable来得知一帧的数据准备好了->requestRender通知Render来绘制数据->在Render的回调方法onDrawFrame中调用SurfaceTexture的updateTexImage方法获取一帧数据，然后开始使用GL来进行绘制预览。
 
+
+  2).设置GLSurfaceView透明
+  https://www.jianshu.com/p/4e5053df19a3
+  实现步骤：
+  1.在调用GLSurfaceView.setRenderer()之前调用：
+  GLSurfaceView.setEGLConfigChooser(8, 8, 8, 8, 16, 0);
+  GLSurfaceView.getHolder().setFormat(PixelFormat.TRANSLUCENT);
+  GLSurfaceView.setZOrderOnTop(true);
+  
+  2.在GLSurfaceView.Renderer的onSurfaceCreated方法里，把背景的透明度设为0：
+  GLES20.glClearColor(0,0,0,0);
+  
+  作者：_Ricky_
+  链接：https://www.jianshu.com/p/4e5053df19a3
+  來源：简书
+  简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
+
+
+  3).视频播放完毕之后的reset过程
+  MediaCodec中使用的SurfaceTextureb在每次解码完成后会被release，主意在下次解码开始前重新创建
+
+  
+
 模板测试页			{#yungentie}
 ====================================
 
