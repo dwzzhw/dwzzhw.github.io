@@ -8,27 +8,27 @@ permlink: /method
 ==============================
 
 <hr>
-
-赞助方式一：`支付宝二维码付款`
-------------------------------
-
-<hr>
-您可以选择手机支付宝扫一扫
-
-<img src="{{ '/styles/images/zhifubao.PNG' | prepend: site.baseurl }}" alt="支付宝二维码付款给Freud" width="310" />
-
-<br>
-<br>
-
-赞助方式二：`微信扫一扫`
+赞助方式一：`微信扫一扫`
 ------------------------------
 
 <hr>
 您可以选择手机微信扫一扫
 
-![微信二维码付款给Freud]({{ '/styles/images/weixin.png' | prepend: site.baseurl }})
+![微信二维码付款给Loading]({{ '/styles/images/weixin.jpg' | prepend: site.baseurl }})
 
 <br>
 <br>
+
+赞助方式二：`支付宝二维码付款`
+------------------------------
+
+<hr>
+您可以选择手机支付宝扫一扫
+
+<img src="{{ '/styles/images/zhifubao.jpg' | prepend: site.baseurl }}" alt="支付宝二维码付款给Loading" width="430" />
+
+<br>
+<br>
+
 
 <hr>

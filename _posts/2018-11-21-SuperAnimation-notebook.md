@@ -15,15 +15,18 @@ Animation性能对比      {#yemianbiaoti}
 
 Lottie动画                {#lottie}
 -----------------
+<hr>
 ![Lottie动画]({{ '/styles/images/animation/performance/xiaomi_mix2s_lottie_3.png' | prepend: site.baseurl  }})
  
- ---
+<br>
+<br>
 
 SuperAnimation动画                {#superanimation}
 -----------------
 ![SuperAnimation动画]({{ '/styles/images/animation/performance/xiaomi_mix2s.png' | prepend: site.baseurl  }})
 
----
+<br>
+<br>
 
 模板测试页			{#yungentie}
 ====================================

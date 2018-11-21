@@ -3,7 +3,7 @@ layout: post
 title:  OpenGL 问题汇总
 date:   2018-11-09 15:00:00 +0800
 categories: document
-tag: 教程
+tag: 笔记
 ---
 
 * content
