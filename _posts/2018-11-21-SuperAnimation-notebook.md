@@ -1,14 +1,29 @@
 ---
 layout: post
-title:  GitHub blog相关测试页面
-date:   2018-11-07 00:00:00 +0800
+title:  Animation相关素材汇总
+date:   2018-11-20 10:20:00 +0800
 categories: document
-tag: 教程
+tag: 素材
 ---
 
 * content
 {:toc}
 
+
+Animation性能对比      {#yemianbiaoti}
+========
+
+Lottie动画                {#lottie}
+-----------------
+![Lottie动画]({{ '/styles/images/animation/performance/xiaomi_mix2s_lottie_3.png' | prepend: site.baseurl  }})
+ 
+ ---
+
+SuperAnimation动画                {#superanimation}
+-----------------
+![SuperAnimation动画]({{ '/styles/images/animation/performance/xiaomi_mix2s.png' | prepend: site.baseurl  }})
+
+---
 
 模板测试页			{#yungentie}
 ====================================
@@ -20,13 +35,6 @@ tag: 教程
 撇开第三方评论系统的盈利与否不谈，我好像发现了什么不得了的事情，就是我用什么，就死什么。
 
 我用Disqus，被墙了；用多说，关停了；用云跟帖，挂了。
-
-
-诫子书                {#zhugeliang}
-----------------------------------------------------------
-![诫子书]({{ '/styles/images/jiezishu.jpg' | prepend: site.baseurl  }})
-
-[诸葛亮](#)
 
 
 选择 - 回归			{#back-to-begin}
